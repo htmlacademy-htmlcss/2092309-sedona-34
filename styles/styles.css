@@ -1,3 +1,327 @@
-body {
-    background-color: tomato;
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
   }
+    
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+  
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;   
+    background-color:white;
+  }
+  .page-header {
+    color: #000000;
+    background-color: white;
+  }
+  .navigation-list {
+      list-style: none;
+  }
+  .navigation-link {
+    line-height: 26px;        
+    color: #000000;    
+    text-decoration: none;    
+}
+    .navigation-user {
+    list-style: none;
+    }
+  .main-index {
+    background-image: url("../images/index-background.jpg");
+    color: #ffffff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  .desc {    
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .dark-blue {
+ background-color: #82B3D3;
+  }
+  .light-blue {
+    background-color: rgba(131, 179, 211, 0.12);   
+    color: #000000;
+  }
+  .blue {
+    background-color:  rgba(131, 179, 211, 0.2);
+    color: #000000;
+ }
+  .advantages {  
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+  }
+  .advantages-list {
+    text-align: center;
+    list-style: none;
+  }
+  .advantages-item {
+
+  }
+  .advantages-title {  
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF
+  }  
+    .advantages-number {       
+    font-size: 18px;
+    line-height: 21px;   
+    color: #FFFFFF
+  }   
+  .advantages-№1{
+    list-style: none;
+  }
+  .advantages-№1-title {    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+    .advantages-№1-item {
+   background-image:url(../images/home.svg);
+   background-repeat: no-repeat;
+    }
+    .advantages-№2-item {
+    background-image: url(../images/food.svg);
+    background-repeat: no-repeat;
+    }
+    .advantages-№3-item {
+     background-image: url(../images/souvenir.svg);
+     background-repeat: no-repeat;
+    }
+    .advantages-description {      
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF  
+}
+  .search-title {     
+    text-align: center;
+    text-transform: uppercase;
+    color:#000000;    
+}
+   .search {
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #756157;    
+   }
+ .search-about {    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;       
+    text-align: center;
+    color: #333333;
+}
+    search a {
+        list-style: none;
+    }
+.subscribe {
+background-image: url("../images/background-subscribe.jpg");
+color: #FFFFFF; 
+}
+.subscribe-title {
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+}
+.subscribe-about {
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+}
+.page-footer {
+background: #FFFFFF; 
+}
+.footer-social-item {
+list-style: none; 
+}
+.footer {
+text-decoration: none ;
+color:#000000;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+}
+a {
+text-decoration: none ;
+color:#000000;   
+}
+.inner-header-title {
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 78px; 
+color: #FFFFFF;  
+}
+.breadcrumbs {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.breadcrumbs-link {
+color: inherit;      
+}
+.catalog-filter-title {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px; 
+text-transform: capitalize;
+color: #FFFFFF;   
+}
+.control {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.legend {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.button {
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;  
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase; 
+background-color: #756157;
+color: #FFFFFF; 
+border: 0;
+border-radius: 4px;
+}
+.button-blue {
+background-color: #82B3D3;
+border-radius: 4px;
+border: none;
+color: #ffffff;
+}
+.hotel-card-button button {
+background: #82B3D3;
+border-radius: 4px;
+}
+.catalog {
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+color: #000000;
+}
+.select-control {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;   
+}
+.view-icon-list {
+list-style: none;
+}
+.hotel-card-list {
+list-style: none;  
+}
+.catalog-filter-list {
+list-style: none;   
+}
+.hotel-card-name {
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;   
+color: #000000;
+}
+.hotel-card-title {
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+}
+.hotel-card-price {
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+}
+.hotel-card-button button {
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;  
+}
+.rating {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+}
+.pagination-link pagination-current {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+.pagination-link {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.displaying output {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;   
+color: #333333;
+}
+
